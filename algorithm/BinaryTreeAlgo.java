@@ -11,7 +11,7 @@ public class BinaryTreeAlgo {
     // 102. 二叉树的层序遍历
     // 递归法
     public List<List<Integer>> levelOrderRecursive(TreeNode root) {
-        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        List<List<Integer>> ans = new ArrayList<>();
         levelTraversal(root, 0, ans);
         return ans;
     }
@@ -22,7 +22,7 @@ public class BinaryTreeAlgo {
         }
         depth++;
         if (ans.size() < depth) { //层级增加时，创建新一层的数组
-            List<Integer> thisLevel = new ArrayList<Integer>();
+            List<Integer> thisLevel = new ArrayList<>();
             ans.add(thisLevel);
         }
         ans.get(depth - 1).add(node.val);
@@ -32,13 +32,13 @@ public class BinaryTreeAlgo {
     
     // 非递归，Queue 法
     public List<List<Integer>> levelOrderQueue(TreeNode root) {
-        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        List<List<Integer>> ans = new ArrayList<>();
         if (root == null)
             return ans;
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
-            List<Integer> thisLevel = new ArrayList<Integer>();
+            List<Integer> thisLevel = new ArrayList<>();
             int len = queue.size();
             while (len-- > 0) {
                 TreeNode tmp = queue.poll();
