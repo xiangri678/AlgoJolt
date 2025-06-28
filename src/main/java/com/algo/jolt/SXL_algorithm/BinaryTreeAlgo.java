@@ -1,4 +1,4 @@
-package com.algo.jolt.algorithm;
+package com.algo.jolt.SXL_algorithm;
 
 import com.algo.jolt.model.TreeNode;
 import java.util.ArrayList;

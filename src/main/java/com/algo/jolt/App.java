@@ -1,6 +1,6 @@
 package com.algo.jolt;
 
-import com.algo.jolt.algorithm.ArraysAlgo;
+import com.algo.jolt.SXL_algorithm.ArraysAlgo;
 import com.algo.jolt.javaLanguage.CreateThreads;
 import com.algo.jolt.javaLanguage.ExecutorServiceDemo;
 import com.algo.jolt.javaLanguage.UDPClientDemo;

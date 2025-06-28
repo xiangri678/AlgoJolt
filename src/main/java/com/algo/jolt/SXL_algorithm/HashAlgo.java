@@ -1,4 +1,4 @@
-package com.algo.jolt.algorithm;
+package com.algo.jolt.SXL_algorithm;
 
 import lombok.extern.slf4j.Slf4j;
 

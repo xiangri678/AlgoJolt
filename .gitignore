@@ -25,3 +25,6 @@ dist/
 
 # VSCode
 .vscode
+
+# 不需要的文件
+SXLWebsite/
