@@ -6,6 +6,8 @@
 
 一个综合性的算法学习和练习项目，包含LeetCode题解、Java语言特性演示、各类算法实现。
 
+![项目封面图](./pics/AlgoJolt_Cover.png)
+
 ## 📁 项目结构
 
 ```
@@ -55,7 +57,7 @@ LeetCode刷题计划和题解：
 #### Study Plans (`studyplan/`)
 
 - `premium_algo_100.java` - LeetCode Plus《尊享面试100题》面试高频算法题解集合
-- `premium_sql_50.java` -LeetCode Plus SQL 50题精选
+- `premium_sql_50.java` - LeetCode Plus SQL 50题精选
 
 ### 3. 🔄 SXL Algorithm (`SXL_algorithm/`)
 
